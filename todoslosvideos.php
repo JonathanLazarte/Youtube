@@ -1,5 +1,5 @@
 <?php
-       $coneccion = mysqli_connect('us-east.connect.psdb.cloud','nut3a9hwq2pqpvgybrp8','pscale_pw_qK7aQmJuY9gnk5kuDIf0zmpblqosqhOaX0T9og29uox','jonathanlazarte');
+      $conexion = mysqli_connect('sql10.freemysqlhosting.net:3306','sql10595142','vUpaIzDiLi','sql10595142');
      $query= "SELECT *FROM videos";
      $resultado= mysqli_query($conexion, $query);
 
