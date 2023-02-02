@@ -184,20 +184,9 @@
                             textohtml += "<a target='_blank' href='"+ cadena.archivo +"'class='VIDEO'>" + "<img src='" + cadena.archivo + "'>" + 
     "<div atributoid='"+ cadena.id +"'class='Titulo'>" + "<div class='divimg'><div class='imgp'><img class='imgp' src='unnamed.jpg'></div></div>" +
        "<div class='divtexto'><span style='text-align:left;display:block;font-size:13.5px'>" + cadena.titulo+"</span>"+"<span style='color:#4b4b4b;display:block;text-align:left;display:block;font-size:11px;margin-top:5px;'>"+ cadena.usuariovideo +"</span>"+ "<span style='color:#4b4b4b;display:block;text-align:left;display:block;font-size:11px;margin-top:2px;'>0 visualizaciones - hace 2 dias</span>" +"</div></div></a>";
-                  console.log(response);
+                  console.log(cadena);
                           })
                           $('#vidi').html(textohtml);
-
-        }
-     })
-    }
-
-    function cargartodos(){
-      $.ajax({
-       url: 'todoslosvideos.php',
-       type: 'get',
-       success: function(response){
-          console.log(response);
 
         }
      })
